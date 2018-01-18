@@ -15,7 +15,7 @@
 
   <body>
     <div class="container">
-            <nav class="navbar navbar-default navbar-tall navbar-full" role="navigation">
+                  <nav class="navbar navbar-default navbar-tall navbar-full" role="navigation">
                     <div class="navbar-header">
                       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#global-nav">
                         <span class="sr-only">Toggle navigation</span>
@@ -23,28 +23,42 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
-                      <a class="navbar-brand" href="/">Latitude</a>
+                      <a class="navbar-brand" href="/Users/nicksteinhauser/Desktop/bootcamp_workspace/repo/12-ste-Web-hwk/landing.html">Latitude</a>
                     </div>
                   
-                    <div class="collapse navbar-collapse" id="global-nav">
+                    <div class="nav navbar-tabs" id="global-nav">
                       <div class="navbar-right">
                         <ul class="nav navbar-nav">
 
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Plots
-                            </button>
-                               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                 <a class="dropdown-item" href="#">Action</a>
-                                 <a class="dropdown-item" href="#">Another action</a>
-                                 <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
+                            <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Plots <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/Users/nicksteinhauser/Desktop/bootcamp_workspace/repo/12-ste-Web-hwk/plot_guide.html">Plot 1</a></li>
+                                        <li><a href="/Users/nicksteinhauser/Desktop/bootcamp_workspace/repo/12-ste-Web-hwk/plot_guide.html">Plot 2</a></li>
+                                        <li><a href="/Users/nicksteinhauser/Desktop/bootcamp_workspace/repo/12-ste-Web-hwk/plot_guide.html">Plot 3</a></li>
+                                        <li><a href="/Users/nicksteinhauser/Desktop/bootcamp_workspace/repo/12-ste-Web-hwk/plot_guide.html">Plot 4</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="/Users/nicksteinhauser/Desktop/bootcamp_workspace/repo/12-ste-Web-hwk/comparisons.html">Comparisons</a></li>
+                                    </ul>
+                                </li>
                           
                             <li>
-                              <a href="/pages/about-us">Comparisons</a>
+
+                                <a href="/Users/nicksteinhauser/Desktop/bootcamp_workspace/repo/12-ste-Web-hwk/comparisons.html">
+                                    Comparisons
+                                </a>
                             </li>
                           
                             <li>
-                              <a href="/pages/faq">Data</a>
+                                <a href="/Users/nicksteinhauser/Desktop/bootcamp_workspace/repo/12-ste-Web-hwk/data.html">
+                                    Data
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                      
+                                </a>
                             </li>
                           
                         </ul>
@@ -52,33 +66,82 @@
                     </div>
                   </nav>
         
+        
+        
+        <!-- main body -->
+            
         <div class= 'row'>
-                /* main body of data */
+            <!--description tab -->
             <div class='col-md-8 col-sm-12'> 
                 <div class='jumbotron'>
             
-                        <h3>Lorem ipsum 1</h3>
-                        <img class = 'pull-left' width=30% src='images/comparison-lg.png'></img>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, aperiam! Nobis accusamus deleniti quibusdam doloremque. Distinctio cumque impedit dolorum soluta autem dolores tempore, voluptas minima enim. Nihil labore totam reprehenderit?</p>
-                   
-                    <h3>Lorem ipsum 2</h3>
-                    <img class = 'pull-left' width=30% src='images/comparison-lg.png'></img>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, aperiam! Nobis accusamus deleniti quibusdam doloremque. Distinctio cumque impedit dolorum soluta autem dolores tempore, voluptas minima enim. Nihil labore totam reprehenderit?</p>
+                    <div class= 'row'>
+                        <div class='col-sm-11 col-xs-11'>
+                            <h3>Lorem ipsum 1</h3>
+                        </div>
+                    </div>
+                    <div class = 'row'>
+                        <div class='col-sm-12 col-xs-12'>
+                            <img style = 'float:left' width=30% src='images/comparison-lg.png' href = '#'></img>
 
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, aperiam! Nobis accusamus deleniti quibusdam doloremque. Distinctio cumque impedit dolorum soluta autem dolores tempore, voluptas minima enim. Nihil labore totam reprehenderit?</p>
+                        </div>
+                    </div>
+                    
+                    <div class= 'row'>
+                        <div class='col-sm-11 col-xs-11'>
+                           <h3>Lorem ipsum 2</h3>
+                        </div>
+                    </div>
+                    <div class = 'row'>
+                        
+                        <div class='col-sm-12 col-xs-0'>
+                            <img style = 'float:left' width=30% src='images/comparison-lg.png' href = '#'></img>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, aperiam! Nobis accusamus deleniti quibusdam doloremque. Distinctio cumque impedit dolorum soluta autem dolores tempore, voluptas minima enim. Nihil labore totam reprehenderit?</p>
+                        </div>
+                        <!--<div class='col-md-0 col-sm-0 col-xs-12'>
+                            <img style = 'float:left' width=100% src='images/comparison-lg.png' href = '#'></img>
+                        </div>
+                        <div class='col-md-0 col-xs-12'>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, aperiam! Nobis accusamus deleniti quibusdam doloremque. Distinctio cumque impedit dolorum soluta autem dolores tempore, voluptas minima enim. Nihil labore totam reprehenderit?</p>
+                        </div>-->
+                    </div>
                 </div>
             </div>
-
             
-            
-            
-            
-            
-            
-            
-            
-            <div class='col-md-4 col-sm-12'><div class='jumbotron'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus est dolorem necessitatibus amet alias repellat error excepturi corporis quam. Ducimus debitis corporis placeat vero quos eaque obcaecati sed voluptatem facere?</div></div>
+            <!-- visualizations tab -->
+            <div class='col-md-4 col-sm-12'>
+                <div class='jumbotron'>
+                    <h3 style="padding-left:5px">Visualizations</h3>
+                    <div class= 'row'>
+                        <div class = 'col-xs-6 '> 
+                            <a href="/Users/nicksteinhauser/Desktop/bootcamp_workspace/repo/12-ste-Web-hwk/plot_guide.html" class="d-block mb-4 h-100">
+                                <img  width=100% src='images/comparison-lg.png' >
+                            </a>
+                        </div>
+                        <div class = 'col-xs-6 '> 
+                            
+                            <a href="/Users/nicksteinhauser/Desktop/bootcamp_workspace/repo/12-ste-Web-hwk/plot_guide.html" class="d-block mb-4 h-100">
+                                <img width=100% src='images/comparison-lg.png' >
+                            </a>
+                        </div>
+                    </div>
+                    <div class= 'row'>
+                        <div class = 'col-xs-6 '> 
+                            <a href="/Users/nicksteinhauser/Desktop/bootcamp_workspace/repo/12-ste-Web-hwk/plot_guide.html" class="d-block mb-4 h-100">
+                                <img width=100% src='images/comparison-lg.png' >
+                            </a>
+                        </div>
+                        <div class = 'col-xs-6 '> 
+                            <a href="/Users/nicksteinhauser/Desktop/bootcamp_workspace/repo/12-ste-Web-hwk/plot_guide.html" class="d-block mb-4 h-100">
+                                <img width=100% src='images/comparison-lg.png' >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </div> <!-- /container -->
 
     <footer class="bd-footer text-muted">
         <div class="container">
